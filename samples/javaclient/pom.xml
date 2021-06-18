@@ -10,13 +10,13 @@
   <url>https://developer.amazon.com/appsandservices/solutions/alexa/alexa-voice-service</url>
 
   <properties>
-    <jetty.version>9.3.7.v20160115</jetty.version>
+    <jetty.version>9.4.39.v20210325</jetty.version>
     <!-- The latest version of alpn-boot that supports JDK 1.8.0_121 -->
     <!-- To override, pass -Dalpn-boot.version=YOUR_VERSION when running "mvn install" and "mvn exec:exec" -->
     <!-- Your version can be determined here: http://www.eclipse.org/jetty/documentation/current/alpn-chapter.html#alpn-versions -->
     <alpn-boot.version>8.1.11.v20170118</alpn-boot.version>
     <slf4j.version>1.7.10</slf4j.version>
-    <log4j.version>2.3</log4j.version>
+    <log4j.version>2.13.2</log4j.version>
   </properties>
   <dependencies>
     <dependency>
@@ -37,7 +37,7 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.3</version>
     </dependency>
     <dependency>
       <groupId>uk.co.caprica</groupId>
